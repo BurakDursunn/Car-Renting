@@ -1,0 +1,8 @@
+package com.example.carrentingbackend.repository;
+
+import com.example.carrentingbackend.model.Rental;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RentalRepository extends JpaRepository<Rental, Long> {
+
+}
